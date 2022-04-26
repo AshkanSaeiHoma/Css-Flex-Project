@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Vazir-Regular;
+    src: url(../FONTS/Vazirmatn-FD-Regular.ttf),
+    url(../FONTS/Vazirmatn-FD-Regular.woff2);
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir-Medium;
+    src: url(../FONTS/Vazirmatn-FD-Medium.ttf),
+    url(../FONTS/Vazirmatn-FD-Medium.woff2);
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Vazir-Bold;
+    src: url(../FONTS/Vazirmatn-FD-Bold.ttf),
+    url(../FONTS/Vazirmatn-FD-Bold.woff2);
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* Global Class */
+
+
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red {
+    background-color: red;
+}
+
+
+.title {
+      text-align: center;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    
+}
+/* Global Class */
+
+.nav-menu {
+    display: flex;
+    background-color: #efefef;
+    height: 50px;
+    margin: 0;
+    align-items: center;
+}
+
+.nav-menu li {
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.menu-item:hover {
+    color: rgb(16, 164, 213);
+    transition: color 0.2s;
+}
+
+
+/*Header Section*/
+header {
+    display: flex;
+    justify-content: center;
+   max-height: 700px;
+    
+}
+
+  img {
+      width: 100%;
+      height: auto;
+  }
+
+  h1 {
+  font-size: 3em;
+  color: #efefef;
+  align-self: center;
+  background: rgba(49, 42, 42, 0.379);
+  }
+/*Header Section*/
+/*Container Section*/
+  .section-body {
+      margin: 50px auto;
+      display: flex;
+  }
+
+  .section-body aside {
+      flex : 25%;
+  }
+
+  .section-body main {
+        display: flex;
+        flex : 75%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+  }
+
+  .section-body main > div {
+         width: 45.5%;
+         margin: 0 6px;
+  }
+
+  .aside-list  {
+      text-align: center;
+  }
+
+  .aside-list p {
+      margin-bottom: 5px;
+      border-bottom: 1px solid black;
+      padding-bottom: 5px;
+  }
+
+  .aside-list ul {
+        padding: 0;
+  }
+
+
+  .aside-list {
+      background-color: #efefef;
+      padding: 15px;
+      margin-right: 8px;
+      margin-bottom: 5px;
+  }
+
+/*Container Section*/
+
+/*Footer Section*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    margin: 0 10px;
+}
+
+.footer {
+      padding: 6px;
+}
+
+/*Footer Section*/
